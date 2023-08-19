@@ -1,0 +1,85 @@
+/* header.css */
+.header {
+    background-color: white;
+    color: white;
+    padding: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .image-box {
+    flex: 1;
+    padding-right: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Specify the image background URL here */
+  .image-box {
+    background-image: url('../images/image1.jpeg'); /* Use a relative path */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  
+  
+  /* Update font style and boldness for main title */
+  .main-title {
+    font-size: 24px;
+    font-family: Arial, sans-serif; /* Change to your desired font family */
+    font-weight: bold; /* Set to bold */
+    color: black;
+    margin-right: 300px;
+  }
+  
+  /* Update font style and boldness for sub title */
+  .sub-title {
+    font-size: 16px;
+    font-family: Arial, sans-serif; /* Change to your desired font family */
+    font-weight: normal; /* Set to normal */
+    color: rgb(29, 27, 27);
+    margin-right: 300px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: rgb(29, 27, 27);
+  }
+  
+  .donate-button {
+    margin-left: 20px;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: rgb(29, 27, 27);
+  }
+  
+  /* Style Font Awesome icons */
+  .nav-links li a svg {
+    font-size: 24px;
+    color: rgb(29, 27, 27);
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover svg {
+    color: rgb(0, 0, 0);
+  }
